@@ -1,5 +1,14 @@
 function compareNumbers (firstNumber, secondNumber) {
   // Your code here
+  if (firstNumber < secondNumber){
+    return true
+  }
+  else if (firstNumber > secondNumber){
+    return false
+  }
+  else if (firstNumber == secondNumber){
+    return -1
+  }
 }
 
 // TEST CASES
