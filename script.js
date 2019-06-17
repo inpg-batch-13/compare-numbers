@@ -10,6 +10,8 @@ else if (firstNumber == secondNumber){
 }
 }
 
+
+
 // TEST CASES
 console.log(compareNumbers(5, 8)); // true
 console.log(compareNumbers(5, 3)); // false
