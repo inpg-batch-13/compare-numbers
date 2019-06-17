@@ -5,12 +5,12 @@ if (firstNumber < secondNumber){
 else if (firstNumber > secondNumber) {
   return false
 }
-else if (firstNumber == secondNumber){
+else (firstNumber == secondNumber){
   return -1
 }
 }
-
-
+ // bisa juga:
+ // return secondNumber === firstNunber ? -1 : secondNumber > firstNumber
 
 // TEST CASES
 console.log(compareNumbers(5, 8)); // true
