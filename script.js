@@ -1,5 +1,6 @@
 function compareNumbers (firstNumber, secondNumber) {
   // Your code here
+  return firstNumber === secondNumber ? -1 : secondNumber > firstNumber
 }
 
 // TEST CASES
