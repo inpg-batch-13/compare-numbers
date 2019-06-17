@@ -1,6 +1,16 @@
 function compareNumbers (firstNumber, secondNumber) {
-  // Your code here
+if (firstNumber < secondNumber){
+  return true
 }
+else if (firstNumber > secondNumber) {
+  return false
+}
+else (firstNumber == secondNumber){
+  return -1
+}
+}
+ // bisa juga:
+ // return secondNumber === firstNunber ? -1 : secondNumber > firstNumber
 
 // TEST CASES
 console.log(compareNumbers(5, 8)); // true
